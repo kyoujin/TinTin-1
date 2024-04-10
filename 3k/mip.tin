@@ -752,7 +752,7 @@
 	#NOP Zelligar's Headband;
 	#REGEX {$msg} { stumbles in confusion as the headband hypnotizes } {#var mipgag 1};
 
-	#IF {$mipgag == 0} {.mipProcessBAB $msg}
+	#IF {$mipgag == 0} {.mipProcessBAB %0}
 }
 
 #var chat[max] 100
